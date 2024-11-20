@@ -15,7 +15,12 @@ import MyTeam from "../component/MyTeam"
 import TwoFactor from "../component/TwoFactor"
 import Withdraw from "../component/Withdraw"
 import Deposit from "../component/Deposit"
-import FullLogin from './FullLogin';
+import FullLogin from './Login';
+import AccountRecovery from "../component/AccountRecovery"
+import TaskList from "../component/TaskList"
+import SupportTicket from "../component/SupportTicket"
+import OpenTicket from "../component/OpenTicket"
+import PurchesMembership from "../component/PurchesMembership"
 
 
  
@@ -86,14 +91,29 @@ const Route =createBrowserRouter([
   {
     path:"/deposit",
     element:<Deposit/>
+  },
+  {
+    path:"/accountRecovery",
+    element:<AccountRecovery/>
+  },
+  {
+    path:"/taskList",
+    element:<TaskList/>
+  },
+  {
+    path:"/supportTicket",
+    element:<SupportTicket/>
+  },
+  {
+    path:"/openTicket",
+    element:<OpenTicket/>
+  },
+  {
+    path:"/purchesMembership",
+    element:<PurchesMembership/>
   }
 
 
 ])
-
-
-
-
-
  
 export default Route

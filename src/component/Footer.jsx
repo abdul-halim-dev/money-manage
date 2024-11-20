@@ -8,7 +8,7 @@ const Footer = () => {
     <img className=" w-[25px] h-[25px] object-cover" src="./src/assets/icon/home.png" alt="" />
     <span className="text-secondary text-[10px] "> Home </span>
   </Link>
-  <Link className=" flex items-center justify-center flex-col gap-1 " to={"/"}>
+  <Link className=" flex items-center justify-center flex-col gap-1 " to={"/fullLogin"}>
     <img className=" w-[30px] h-[30px] object-cover" src="./src/assets/icon/task-2.png" alt="" />
     <span className="text-secondary text-[10px] "> Task </span>
   </Link>

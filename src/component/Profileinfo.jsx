@@ -15,10 +15,10 @@ const Profileinfo = () => {
                     <span className='text-black text-[12px] font-semibold '> Jaber Ali</span>
                 </div>
                 <div className=' flex items-center justify-center flex-col gap-3 '>
-                    <div className=' bg-active flex items-center justify-center gap-2 rounded-full pr-2' >
+                    <div className=' bg-primary flex items-center justify-center gap-2 rounded-full pr-2' >
 
-                        <span className='rounded-full bg-secondary/80 text-black  p-1'> <FaBitbucket /> </span>
-                        <span className='  text-white text-sm font-semibold '> No Plan</span>
+                        <span className='rounded-full bg-active text-secondary  p-1'> <FaBitbucket /> </span>
+                        <span className='  text-black text-sm font-semibold '> No Plan</span>
                     </div>
 
                     <div className=' flex items-center justify-center flex-col gap-0 '>

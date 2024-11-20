@@ -14,7 +14,7 @@ const Dashbord = () => {
         <Link to={"/"}>
           <img className=" w-[30px] h-[30px] object-cover" src="./src/assets/icon/logo.png " alt="" />
         </Link>
-        <Link to={"/fullLogin"}>
+        <Link to={"/dashbord"}>
           <img className=" w-[30px] h-[30px] object-cover" src="./src/assets/icon/dummy-profile.png " alt="" />
         </Link>
       </header>
@@ -31,14 +31,14 @@ const Dashbord = () => {
           <img className=" w-[25px] h-[25px] object-cover" src="./src/assets/icon/home.png" alt="" />
           <span className="text-secondary text-[10px] "> Home </span>
         </Link>
-        <Link className=" flex items-center justify-center flex-col gap-1 " to={"/"}>
+        <Link className=" flex items-center justify-center flex-col gap-1 " to={"/taskList"}>
           <img className=" w-[30px] h-[30px] object-cover" src="./src/assets/icon/task-2.png" alt="" />
           <span className="text-secondary text-[10px] "> Task </span>
         </Link>
         <Link className=" flex items-center justify-center  " to={"/membershipPlan"}>
           <img className=" absolute -top-[18px] w-[55px] sm:w-[65px] h-[55px] sm:h-[65px] object-cover" src="./src/assets/icon/vip.png " alt="" />
         </Link>
-        <Link className=" flex items-center justify-center flex-col gap-1 " to={"/"}>
+        <Link className=" flex items-center justify-center flex-col gap-1 " to={"/supportTicket"}>
           <img className=" w-[30px] h-[30px] object-cover" src="./src/assets/icon/contact.png " alt="" />
           <span className="text-secondary text-[10px] "> Contact </span>
         </Link>

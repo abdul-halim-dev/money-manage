@@ -30,3 +30,19 @@ body{
    top: -10px;
    left: -14px;
  }
+
+
+ 
+ /* span{
+   color: white;
+   cursor: pointer;
+ }
+  */
+ .err{
+   color: rgb(255, 68, 68);
+   display: none;
+ }
+ 
+ input:invalid[focused="true"] ~ .err{
+   display: flex;
+ }
