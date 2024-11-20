@@ -12,7 +12,7 @@ const MembershipPlan = () => {
         </Link>
 
       <Link to={"/dashbord"}>
-          <img className=" w-[30px] h-[30px] object-cover" src="https://i.ibb.co.com/MfTBS0g/dummy-profile.png" alt="" />
+          <img className=" w-[30px] h-[30px] object-cover"  src="https://i.ibb.co.com/MfTBS0g/dummy-profile.png" alt="" />
         </Link>
 
 
