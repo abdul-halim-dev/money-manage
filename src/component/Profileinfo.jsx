@@ -9,7 +9,7 @@ const Profileinfo = () => {
             <div className='w-full   flex items-center justify-between  '>
                 <div className=' flex items-center justify-center flex-col'>
                     <div className='w-[80px] h-[80px] rounded-full bg-active p-2 flex items-center justify-center'>
-                        <img className='w-full h-full object-contain rounded-full' src="./src/assets/icon/dummy-profile.png" alt="" />
+                        <img className='w-full h-full object-contain rounded-full'  src="https://i.ibb.co.com/MfTBS0g/dummy-profile.png" alt="" />
 
                     </div>
                     <span className='text-black text-[12px] font-semibold '> Jaber Ali</span>
