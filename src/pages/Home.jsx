@@ -83,7 +83,7 @@ const Home = () => {
 </div>
 
 <Link to={"/fullLogin"} className=" w-[95%] sm:w-[90%] h-full sm:h-[350px] ">
-    <img className="w-full h-full object-cover rounded-xl" src="./src/assets/icon/invite-banner.jpg" alt="" />
+    <img className="w-full h-full object-cover rounded-xl" src="https://i.ibb.co.com/s3W94bt/invite-banner.jpg" alt="" />
 </Link>
 
 
