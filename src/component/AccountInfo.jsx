@@ -19,7 +19,7 @@ const AccountInfo = () => {
      <div className=' w-[95%] sm:w-[90%] flex items-center justify-center rounded-xl flex-col gap-4 bg-secondary  p-4'>
       
         <div className=' w-[170px] h-[170px] '>
-          <img className='w-full h-full object-contain' src="./src/assets/icon/dummy-profile.png" alt="" />
+          <img className='w-full h-full object-contain' src="https://i.ibb.co.com/MfTBS0g/dummy-profile.png" alt="" />
         </div>
 
     <div className='w-full flex gap-4 '>
