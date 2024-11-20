@@ -21,15 +21,15 @@ const Home = () => {
  
   <Carousel autoPlay={true} stopOnHover={true} showArrows={false} swipeable={true} showStatus={false} infiniteLoop={true} showIndicators={true}  showThumbs={false} className="w-full h-full">
                 <div className="w-full  h-full sm:h-[60vh] rounded-md ">
-                    <img className="w-full h-full rounded-md  object-cover " src="./src/assets/sliderimage/image1.jpg" />
+                    <img className="w-full h-full rounded-md  object-cover " src="https://i.ibb.co.com/S6L1Rgx/image1.jpg" />
                    
                 </div>
                 <div className="w-full  h-full sm:h-[60vh] rounded-md">
-                    <img className="w-full h-full rounded-md object-cover" src="./src/assets/sliderimage/image2.png" />
+                    <img className="w-full h-full rounded-md object-cover" src="https://i.ibb.co.com/wKPJ54Q/image2.png" />
                     
                 </div>
                 <div className="w-full  h-full sm:h-[60vh] rounded-md ">
-                    <img className="w-full h-full object-cover rounded-md" src="./src/assets/sliderimage/image3.png" />
+                    <img className="w-full h-full object-cover rounded-md" src="https://i.ibb.co.com/S6L1Rgx/image1.jpg" />
                  
                 </div>
             </Carousel>
@@ -49,17 +49,17 @@ const Home = () => {
 <div className=" w-[49%] flex items-center justify-center flex-wrap gap-4  ">
 
 <a href="#" className=" w-full h-[140px] sm:h-[215px] rounded-lg flex flex-col items-center justify-center gap-1 bg-secondary ">
-  <img className=" w-[100px] sm:w-[160px] h-[100px] sm:h-[160px] object-cover" src="./src/assets/contactimage/support.png" alt="" />
+  <img className=" w-[100px] sm:w-[160px] h-[100px] sm:h-[160px] object-cover" src="https://i.ibb.co.com/VTKQ7V7/support.png" alt="" />
   <span> Help Center </span>
 </a>
 
 <a href="#" className=" w-full h-[140px] sm:h-[215px] rounded-lg  flex flex-col items-center justify-center gap-1 bg-secondary ">
-  <img className=" w-[100px] sm:w-[160px] h-[100px] sm:h-[160px] object-cover" src="./src/assets/contactimage/telegram.png" alt="" />
+  <img className=" w-[100px] sm:w-[160px] h-[100px] sm:h-[160px] object-cover" src="https://i.ibb.co.com/Gv4kmhK/telegram.png" alt="" />
   <span> Telegram </span>
 </a>
 
 <a href="#" className=" w-full h-[140px] sm:h-[215px] rounded-lg  flex flex-col items-center justify-center gap-1 bg-secondary ">
-  <img className="w-[100px] sm:w-[160px] h-[100px] sm:h-[160px] object-cover" src="./src/assets/contactimage/youtube.png" alt="" />
+  <img className="w-[100px] sm:w-[160px] h-[100px] sm:h-[160px] object-cover" src="https://i.ibb.co.com/P9nW73x/youtube.png" alt="" />
   <span> Youtube </span>
 </a>
 
@@ -69,11 +69,11 @@ const Home = () => {
 
 
 <a href="#" className=" rounded-lg  w-full h-[290px] sm:h-[443px] flex flex-col items-center justify-center gap-1 bg-secondary ">
-  <img className=" w-[120px] sm:w-[200px] h-[120px] sm:h-[200px] object-cover" src="./src/assets/contactimage/invite.png" alt="" />
+  <img className=" w-[120px] sm:w-[200px] h-[120px] sm:h-[200px] object-cover" src="https://i.ibb.co.com/9rzppny/invite.png" alt="" />
   <span> Invite Friends </span>
 </a>
 <a href="#" className=" rounded-lg w-full h-[140px] sm:h-[215px] flex flex-col items-center justify-center gap-1 bg-secondary ">
-  <img className=" w-[100px] sm:w-[160px] h-[100px] sm:h-[160px] object-cover" src="./src/assets/contactimage/whatapp.png" alt="" />
+  <img className=" w-[100px] sm:w-[160px] h-[100px] sm:h-[160px] object-cover" src="https://i.ibb.co.com/hX5mHpc/whatapp.png" alt="" />
   <span> Whatapp </span>
 </a>
 

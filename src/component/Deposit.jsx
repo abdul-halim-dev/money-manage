@@ -21,7 +21,7 @@ const Deposit = () => {
                         </div>
 
                             <div className='w-[100px] h-[100px] '>
-                                <img className='w-full h-full object-contain shadow-lg' src="./src/assets/allimage/payment_card.avif" alt="" />
+                                <img className='w-full h-full object-contain shadow-lg' src="https://i.ibb.co.com/1dPq3Pj/payment-card.jpg" alt="" />
                             </div>
                      </div>
 

@@ -7,7 +7,7 @@ const NotFound = () => {
     <div className="w-full  flex p-4 py-[50px] items-center justify-center flex-col gap-0">
 
       <div className=" w-[80%] sm:w-[60%]   ">
-        <img className="w-full  h-auto object-cover" src="./src/assets/allimage/error-404.png" alt="" />
+        <img className="w-full  h-auto object-cover" src="https://i.ibb.co.com/9p2g8Hy/error-404.png" alt="" />
       </div>
 
       <div className="w-full sm:w-[60%]  flex items-center justify-start flex-col gap-3 ">

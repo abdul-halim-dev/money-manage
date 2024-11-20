@@ -50,7 +50,7 @@ const Usertask = () => {
 
     <div className='w-full flex items-start justify-start p-3 gap-3 bg-secondary  rounded-xl shadow-xl'>
         <div className='w-[50px] h-[50px] '>
-            <img className='w-full h-full object-cover' src="./src/assets/allimage/pending.png" alt="" />
+            <img className='w-full h-full object-cover' src="https://i.ibb.co.com/tcqbVPf/pending.png" alt="" />
         </div>
         <div className='flex items-start justify-center flex-col gap-1'>
             <span>Next Reminder </span>

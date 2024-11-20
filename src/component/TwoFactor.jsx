@@ -49,7 +49,7 @@ const TwoFactor = () => {
       </span>
       </div>
       <div className='w-[40px] h-[40px] '>
-        <img className='w-full h-full object-cover' src="./src/assets/allimage/scan.png" alt="" />
+        <img className='w-full h-full object-cover' src="https://i.ibb.co.com/b2M9zwC/scan.png" alt="" />
       </div>
     </div>
 
