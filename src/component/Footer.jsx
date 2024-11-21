@@ -18,7 +18,7 @@ const Footer = () => {
   <Link className=" flex items-center justify-center   " to={"/membershipPlan"}>
      <img className=" bg-[#ffffff] rounded-lg shadow-xl p-1 absolute -top-[18px] w-[45px] h-[45px] object-cover" src="https://i.ibb.co.com/bgXfFMY/membership.png" alt="" />
   </Link>
-  <Link className=" flex items-center justify-center flex-col gap-1 " to={"/fulllogin"}>
+  <Link className=" flex items-center justify-center flex-col gap-1 " to={"/supportTicket"}>
   <MdPermPhoneMsg  className=' text-xl sm:text-3xl text-[#808085] ' />
      <span className="text-[#01cfff] text-[10px] "> যোগাযোগ </span>
   </Link>
