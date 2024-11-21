@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaChartSimple, FaChevronRight, FaKey, FaMoneyBill, FaMoneyCheck, FaRightFromBracket, FaScrewdriverWrench, FaUsers } from 'react-icons/fa6'
+import { FaChartSimple, FaChevronRight, FaKey, FaMoneyBill, FaMoneyCheck, FaRightFromBracket, FaScrewdriverWrench, FaShareFromSquare, FaUsers } from 'react-icons/fa6'
 import { Link } from 'react-router-dom'
 
 const DashbordPanel = () => {
@@ -78,6 +78,19 @@ const DashbordPanel = () => {
                             <FaMoneyBill className='text-lg' />
                         </div>
                         <span className=' text-[18px] font-semibold '> Withdraw History </span>
+                    </div>
+
+                    <span className='text-lg font-bold '>
+                        <FaChevronRight />
+                    </span>
+                </Link>
+
+                <Link to={'/myTeam'} className=' w-full bg-secondary rounded-bl-xl rounded-br-xl  h-full flex items-center justify-between p-3'>
+                    <div className='flex items-center justify-center gap-4'>
+                        <div className='w-[40px] h-[40px] bg-active flex items-center justify-center rounded-full text-secondary'>
+                            <FaShareFromSquare className='text-lg' />
+                        </div>
+                        <span className=' text-[18px] font-semibold '> Refer Link </span>
                     </div>
 
                     <span className='text-lg font-bold '>

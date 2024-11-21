@@ -15,12 +15,13 @@ import MyTeam from "../component/MyTeam"
 import TwoFactor from "../component/TwoFactor"
 import Withdraw from "../component/Withdraw"
 import Deposit from "../component/Deposit"
-import FullLogin from './Login';
 import AccountRecovery from "../component/AccountRecovery"
 import TaskList from "../component/TaskList"
 import SupportTicket from "../component/SupportTicket"
 import OpenTicket from "../component/OpenTicket"
 import PurchesMembership from "../component/PurchesMembership"
+import Login from "./Login"
+ 
 
 
  
@@ -32,8 +33,8 @@ const Route =createBrowserRouter([
     path:"/",
     element:<Home/>,
   },
-  {path:"/fullLogin",
-    element:<FullLogin/>
+  {path:"/login",
+    element:<Login/>
   },
   {
     path:"/signup",
@@ -112,7 +113,6 @@ const Route =createBrowserRouter([
     path:"/purchesMembership",
     element:<PurchesMembership/>
   }
-
 
 ])
  

@@ -36,7 +36,7 @@ const Home = () => {
 </div>
 
 
-<div className="  w-[95%] sm:w-[90%]   pl-3 flex items-center justify-center gap-3 bg-active rounded-lg py-3  ">
+<div className="  w-[95%] sm:w-[90%]   pl-3 flex items-center justify-center gap-3 bg-[#808085] rounded-lg py-3  ">
   <span className="text-secondary text-lg font-semibold "> <FaVolumeHigh/> </span>
   <Marquee pauseOnHover={true}     className="text-[14px] font-medium text-secondary ">🔰আসসালামু আলাইকুম🔰drsmarket🥇এর পক্ষ থেকে আপনাকে স্বাগতম।♥ 📢📢 দীর্ঘদিন যাবত সফলতা ও বিশ্বস্ততার সাথে করে কাজ আসছে drsmarket, আলহামদুলিল্লাহ।♥️ 🔰</Marquee>
 </div>

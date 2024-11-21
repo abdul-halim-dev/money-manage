@@ -4,6 +4,8 @@ import Header from './Header'
 import { FaCopy, FaInfoCircle } from 'react-icons/fa'
 import copy from 'copy-to-clipboard'
 import toast, { Toaster } from 'react-hot-toast'
+import { Link } from 'react-router-dom'
+import { FaChevronRight } from 'react-icons/fa6'
 
 const TwoFactor = () => {
 
@@ -24,7 +26,8 @@ const TwoFactor = () => {
     <div className='w-full   bg-primary h-screen  '>
 <Toaster position="top-right"/>
     <Header/>
-    <div className="flex items-center justify-center py-3 bg-secondary shadow-md  " >
+    <div className=" relative flex items-center justify-center py-3 bg-secondary shadow-md  " >
+    <Link title='ড্যাশবোর্ড ' className=' absolute top-[8px]   left-[10px] sm:left-[30px] bg-[#808085] shadow-md py-2 px-2 rounded-md text-lg text-secondary' to={"/dashbord"}> <FaChevronRight/> </Link>
 
         <p className='text-lg font-bold'>2FA Setting </p>
     </div>
