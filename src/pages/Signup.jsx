@@ -12,7 +12,7 @@ const Signup = () => {
   return (
     <div className=' relative w-full   bg-primary flex items-center justify-center flex-col gap-3 py-[90px] p-4' >
       <div className=' absolute top-0  w-full flex items-center justify-between p-3'>
-        <Link className='text-active text-lg ' to={"/"}> <FaAngleLeft /> </Link>
+        <Link className='text-active text-lg ' to={"/login"}> <FaAngleLeft /> </Link>
         <Link className='text-active text-[16px] ' to={"/login"}>
           Login
         </Link>

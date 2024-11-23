@@ -25,7 +25,7 @@ const Footer = () => {
 
          <Link to={"/dashbord"}>
             <img className=" w-[35px] h-[35px] bg-[#808086] rounded-full shadow-lg object-cover" src="https://i.ibb.co.com/MfTBS0g/dummy-profile.png" alt="" />
-            <span className="text-[#01cfff] text-[12px]  ">  ড্যাশবোর্ড   </span>
+            <span className="text-[#01cfff] text-[12px]  "> প্রোফাইল   </span>
          </Link>
       </footer>
    )

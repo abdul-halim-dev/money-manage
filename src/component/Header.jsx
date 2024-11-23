@@ -13,9 +13,10 @@ const Header = () => {
         </Link>
         <div className='flex items-start justify-center flex-col gap-1'>
 
-        <h3 className='text-2xl font-medium tracking-[2px] '>  Shamsuzzaman </h3>
-        <div className=' max-w-[240px]   flex items-center justify-center relative'>
-          <input className=' w-full py-0 sm:py-1  text-active rounded-full text-center text-xl sm:text-2xl font-bold' type="text" name="" id="" value={"৫৪১৫.০০"}  />
+        <h3 className=' text-lg sm:text-2xl font-medium tracking-[2px] '>  Shamsuzzaman </h3>
+        <div className='   flex items-center justify-center relative'>
+      
+          <span className=' bg-secondary w-[max-content] py-0 px-9 sm:px-11 sm:py-1  text-active rounded-full text-center text-xl sm:text-2xl font-bold'> ৫৪১৫.০০ </span>
        
        <span className='w-[22px] h-[22px] sm:w-[30px] sm:h-[30px] shadow-lg flex items-center justify-center rounded-full bg-active absolute top-[4px] right-[4px]  sm:top-[6px] sm:right-[8px] '> <TbCurrencyTaka className='text-xl '/></span>
        
