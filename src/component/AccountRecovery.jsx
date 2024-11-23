@@ -7,7 +7,7 @@ const AccountRecovery = () => {
     <div className='relative w-full h-screen flex items-center justify-start flex-col gap-4 p-3 bg-primary'>
       <div className=' absolute top-0  w-full flex items-center justify-between p-3'>
         <Link className='text-active text-lg ' to={"/fullLogin"}> <FaAngleLeft /> </Link>
-        <Link className='text-active text-[16px] ' to={"/"}>
+        <Link className='text-active text-[16px] ' to={"/signup"}>
           Register
         </Link>
       </div>

@@ -1,6 +1,6 @@
 
 import { BsFillTelephoneOutboundFill } from 'react-icons/bs';
-import { FaAngleLeft, FaEnvelope, FaGlobe, FaLock, FaSackDollar, FaUser } from 'react-icons/fa6';
+import { FaAngleLeft,FaLock, FaSackDollar, FaUser } from 'react-icons/fa6';
 import { Link } from 'react-router-dom';
 
 
@@ -13,7 +13,7 @@ const Signup = () => {
     <div className=' relative w-full   bg-primary flex items-center justify-center flex-col gap-3 py-[90px] p-4' >
       <div className=' absolute top-0  w-full flex items-center justify-between p-3'>
         <Link className='text-active text-lg ' to={"/"}> <FaAngleLeft /> </Link>
-        <Link className='text-active text-[16px] ' to={"/fulllogin"}>
+        <Link className='text-active text-[16px] ' to={"/login"}>
           Login
         </Link>
       </div>
@@ -34,19 +34,7 @@ const Signup = () => {
                 required
               />
             </div>
-            {/* <div className=' w-full flex items-center justify-center gap-0' >
-              <span className=' w-[13%] sm:w-[8%] bg-secondary h-[40px] rounded-tl-lg rounded-bl-lg border-2 flex items-center justify-center text-xl border-[#bbbbbb] '>  <FaGlobe /> </span>
-              <select className=' w-[87%]  sm:w-[92%] outline-none h-[40px] pl-3 rounded-tr-lg rounded-br-lg border-b-2 border-r-2 border-t-2 border-[#bbbbbb] ' required name="country" id="country">
-                <option value="ban"> Bangladesh </option>
-                <option value="ind"> India </option>
-                <option value="pak"> Pakistan </option>
-                <option value="afgan"> Afganistan </option>
-                <option value="sri"> Srilanka </option>
-                <option value="nepal"> Nepal </option>
-                <option value="maldiv"> Maldiv </option>
-                <option value="canada"> Canada </option>
-              </select>
-            </div> */}
+          
             <div className=' w-full flex items-center justify-center gap-0' >
               <span className=' w-[13%] sm:w-[8%] bg-secondary h-[40px] rounded-tl-lg rounded-bl-lg border-2 flex items-center justify-center text-xl border-[#bbbbbb] '>  <BsFillTelephoneOutboundFill /> </span>
               <input className=' w-[87%]  sm:w-[92%] outline-none h-[40px] pl-3 rounded-tr-lg rounded-br-lg border-b-2 border-r-2 border-t-2 border-[#bbbbbb] ' type="tel" name="number"
@@ -71,7 +59,7 @@ const Signup = () => {
           <button className=' mt-5 w-full bg-active py-2 text-[16px] rounded-lg text-secondary font-semibold ' type="submit"> Register Now </button>
         </form>
         <div className='w-full flex items-center justify-center flex-col gap-1'>
-          <Link className=' text-[#2d8734] text-lg font-semibold ' to={"/fulllogin"}>  Already Have Account? </Link>
+          <Link className=' text-[#2d8734] text-lg font-semibold ' to={"/login"}>  Already Have Account? </Link>
         </div>
 
         <div className=' w-[90px] h-[90px] absolute -top-[40px] bg-secondary ring-[#2d8734] flex items-center justify-center flex-col rounded-full ring-4 '>

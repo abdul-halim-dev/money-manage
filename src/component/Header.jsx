@@ -1,17 +1,31 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { FaBangladeshiTakaSign} from 'react-icons/fa6'
+import {  TbCurrencyTaka } from "react-icons/tb";
+import { BiSolidBell } from "react-icons/bi";
  
 const Header = () => {
   return (
-    <header className=" z-50 bg-active sticky top-0 py-4 px-8 w-full h-[55px] flex items-center justify-between text-secondary ">
-      <Link className='px-3 bg-[#dedddd] text-[#373745] text-lg font-bold  py-1 shadow-md rounded-lg' to={"/"}>
-           ABLAB
-      </Link>
-      <Link to={"/deposit"} className="w-[90px] h-[33px] flex items-center justify-center gap-1   px-1 text-lg font-semibold bg-[#dedddd]  border-0 outline-none rounded-xl shadow-lg text-[#373745] "> <FaBangladeshiTakaSign/> 120.00 </Link>
-      <Link to={"/dashbord"}>
-          <img className=" w-[38px] h-[38px] bg-[#dedddd] rounded-full shadow-lg object-cover" src="https://i.ibb.co.com/MfTBS0g/dummy-profile.png" alt="" />
+    <header className="  rounded-bl-3xl rounded-br-3xl z-50 bg-active sticky top-0 py-4 px-4 sm:px-8 w-full gap-1  flex items-center justify-between text-secondary ">
+     
+     <div className='flex items-center justify-center gap-3'>
+     <Link className='  w-[50px] h-[50px] sm:w-[70px] sm:h-[70px]' to={"/dashbord"}>
+          <img className=" w-full h-full bg-secondary rounded-full shadow-lg object-cover" src="https://i.ibb.co.com/MfTBS0g/dummy-profile.png" alt="" />
         </Link>
+        <div className='flex items-start justify-center flex-col gap-1'>
+
+        <h3 className='text-2xl font-medium tracking-[2px] '>  Shamsuzzaman </h3>
+        <div className=' max-w-[240px]   flex items-center justify-center relative'>
+          <input className=' w-full py-0 sm:py-1  text-active rounded-full text-center text-xl sm:text-2xl font-bold' type="text" name="" id="" value={"৫৪১৫.০০"}  />
+       
+       <span className='w-[22px] h-[22px] sm:w-[30px] sm:h-[30px] shadow-lg flex items-center justify-center rounded-full bg-active absolute top-[4px] right-[4px]  sm:top-[6px] sm:right-[8px] '> <TbCurrencyTaka className='text-xl '/></span>
+       
+        </div>
+
+        </div>
+     </div>
+     
+     <span className='  w-[36px] h-[36px] sm:w-[45px] sm:h-[45px] bg-secondary text-active text-2xl rounded-full flex items-center justify-center cursor-pointer'> <BiSolidBell/> </span>
+     
       </header>
   )
 }

@@ -1,6 +1,8 @@
 import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
+import { FaChevronLeft } from 'react-icons/fa6'
+import { Link } from 'react-router-dom'
 
 const Withdraw = () => {
     return (
@@ -8,10 +10,13 @@ const Withdraw = () => {
             <Header />
             <div className='w-full flex items-start justify-center  '>
                 <div className=' w-full flex items-center justify-center flex-col gap-1 '>
-                    <div className='w-full flex items-center justify-center gap-2 flex-col'>
+                    <div className='relative w-full flex items-center justify-center gap-2 flex-col'>
+                    <Link title='ড্যাশবোর্ড ' className=' absolute top-[0px]   left-[10px] sm:left-[30px] bg-[#808085] shadow-md py-2 px-2 rounded-md text-lg text-secondary' to={"/dashbord"}> <FaChevronLeft/> </Link>
+
                         <h3 className='text-4xl font-bold '> Withdraw </h3>
                         <p className='text-lg font-semibold'> Choose Gateway to Withdraw..</p>
                     </div>
+
                     <div className=' w-full px-6 sm:w-[50%] '>
                         <div className=' w-full  bg-primary p-3 shadow-md rounded-lg flex items-center justify-center flex-col gap-3'>
 

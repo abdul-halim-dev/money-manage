@@ -3,19 +3,22 @@ import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
 import { Link } from 'react-router-dom'
-import { FaChevronRight } from 'react-icons/fa6'
+import { FaChevronLeft } from 'react-icons/fa6'
 
 const AccountInfo = () => {
   return (
-    <div className='w-full   bg-primary    '>
-      <Header />
-      <div className='w-full py-2 relative'>
-        <Link title='ড্যাশবোর্ড ' className=' absolute top-[6px] sm:top-[15px] left-[10px] sm:left-[30px] bg-[#808085] shadow-md py-2 px-2 rounded-md text-lg text-secondary' to={"/dashbord"}> <FaChevronRight /> </Link>
+    <div className='w-full   bg-primary  scroll-mt-[200px]  '>
+     <div className='w-full flex items-center justify-center flex-col  '>
+     <Header />
+      <div className='w-full py-2 relative '>
+        <Link title='ড্যাশবোর্ড ' className=' absolute top-[6px] sm:top-[15px] left-[10px] sm:left-[30px] bg-[#808085] shadow-md py-2 px-2 rounded-md text-lg text-secondary' to={"/dashbord"}> <FaChevronLeft/> </Link>
       </div>
+
+     </div>
 
       <div className='w-full  flex items-center justify-center gap-6 flex-col pb-[100px]'>
         <div className="flex items-center justify-center flex-col gap-2 pt-6" >
-          <h2 className="text-4xl font-bold " > Transfer Balance</h2>
+          <h2 className=" text-3xl sm:text-4xl font-bold " > Transfer Balance</h2>
           <p className='text-lg font-bold'>Transfer Balance to friends..</p>
         </div>
         <div className=' w-[95%] sm:w-[90%] flex items-center justify-center rounded-xl flex-col gap-4 bg-secondary  p-4'>
