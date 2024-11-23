@@ -20,8 +20,6 @@ const Signup = () => {
 
 
       <div className=' w-full sm:w-[50%] shadow-md flex relative items-center justify-center gap-3 p-4 rounded-lg flex-col bg-secondary '>
-
-
         <form className=' pt-[70px] w-full flex items-start justify-center flex-col gap-1 '>
 
           <div className='w-full flex items-center justify-center flex-col gap-6'>
@@ -36,7 +34,6 @@ const Signup = () => {
                 required
               />
             </div>
-
             {/* <div className=' w-full flex items-center justify-center gap-0' >
               <span className=' w-[13%] sm:w-[8%] bg-secondary h-[40px] rounded-tl-lg rounded-bl-lg border-2 flex items-center justify-center text-xl border-[#bbbbbb] '>  <FaGlobe /> </span>
               <select className=' w-[87%]  sm:w-[92%] outline-none h-[40px] pl-3 rounded-tr-lg rounded-br-lg border-b-2 border-r-2 border-t-2 border-[#bbbbbb] ' required name="country" id="country">
@@ -50,8 +47,6 @@ const Signup = () => {
                 <option value="canada"> Canada </option>
               </select>
             </div> */}
-
-
             <div className=' w-full flex items-center justify-center gap-0' >
               <span className=' w-[13%] sm:w-[8%] bg-secondary h-[40px] rounded-tl-lg rounded-bl-lg border-2 flex items-center justify-center text-xl border-[#bbbbbb] '>  <BsFillTelephoneOutboundFill /> </span>
               <input className=' w-[87%]  sm:w-[92%] outline-none h-[40px] pl-3 rounded-tr-lg rounded-br-lg border-b-2 border-r-2 border-t-2 border-[#bbbbbb] ' type="tel" name="number"
@@ -60,9 +55,6 @@ const Signup = () => {
                 required
               />
             </div>
-
-
-
             <div className=' w-full flex items-center justify-center gap-0' >
               <span className='  w-[13%] sm:w-[8%] bg-secondary h-[40px] rounded-tl-lg rounded-bl-lg border-2 flex items-center justify-center text-xl border-[#bbbbbb] '>  <FaLock /> </span>
               <input className='  w-[87%]  sm:w-[92%] outline-none h-[40px] pl-3 rounded-tr-lg rounded-br-lg border-b-2 border-r-2 border-t-2 border-[#bbbbbb] ' type="password" name="password"
@@ -71,24 +63,15 @@ const Signup = () => {
                 required
               />
             </div>
-
-
           </div>
-
-
           <div class="flex items-center py-4">
             <input id="link-checkbox" type="checkbox" value="" class="w-4 h-4 bg-active rounded-full " />
             <label for="link-checkbox" class="ms-2 text-sm  ">I agree with </label>
           </div>
-
-
-
           <button className=' mt-5 w-full bg-active py-2 text-[16px] rounded-lg text-secondary font-semibold ' type="submit"> Register Now </button>
         </form>
-
         <div className='w-full flex items-center justify-center flex-col gap-1'>
           <Link className=' text-[#2d8734] text-lg font-semibold ' to={"/fulllogin"}>  Already Have Account? </Link>
-
         </div>
 
         <div className=' w-[90px] h-[90px] absolute -top-[40px] bg-secondary ring-[#2d8734] flex items-center justify-center flex-col rounded-full ring-4 '>
@@ -97,11 +80,6 @@ const Signup = () => {
         </div>
 
       </div>
-
-
-
-
-
     </div>
   );
 }

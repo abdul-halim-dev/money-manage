@@ -7,12 +7,8 @@ const TaskList = () => {
   return (
 
     <div className=' w-full    bg-primary '>
-  
       <Header/>
-
-
       <div className='w-full pb-[80px]  flex items-center justify-center flex-col gap-4 '>
-        
         <div className='w-full bg-[#828a97] flex items-center justify-between px-6 py-2'>
         <h3 className='text-2xl font-bold text-secondary'>প্যাকেজ </h3>
         </div>
@@ -109,19 +105,9 @@ const TaskList = () => {
             </div>
             <button className='w-full flex items-center justify-center py-1 bg-active text-secondary text-lg font-semibold shadow-xl rounded-lg'>Buy Now </button>
         </div>
- 
-       
-
-       
-
-
         </div>
-
-
       </div>
-
-      
-<Footer/>
+  <Footer/>
     </div>
   )
 }

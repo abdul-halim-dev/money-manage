@@ -4,7 +4,7 @@ import Route from "./pages/Route"
  
  const App = () => {
    return (
-<RouterProvider router={Route}/>
+    <RouterProvider router={Route}/>
    )
  }
  

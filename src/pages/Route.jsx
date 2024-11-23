@@ -23,11 +23,6 @@ import PurchesMembership from "../component/PurchesMembership"
 import Login from "./Login"
  
 
-
- 
-
-
-
 const Route =createBrowserRouter([
   {
     path:"/",

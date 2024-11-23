@@ -27,26 +27,17 @@ const Profileinfo = () => {
                     </div>
                 </div>
             </div>
-
             <div className=' w-full flex items-center justify-between  py-3 border-t-2 border-active'>
-    
                 <div className='w-[50%]   flex items-center justify-center  flex-col gap-2 '>
                      <span className='text-lg font-semibold '> 0.00 BDT </span>
                     <span className='text-sm font-semibold'> Total Deposit </span>
-                    
                 </div>
                 <div className='w-[50%]  relative  flex items-center justify-center flex-col gap-2 '>
                 <span className='text-lg font-semibold '> 0.00 BDT </span>
-                    <span className='text-sm font-semibold'> Total Withdraw </span>
-                    
+                    <span className='text-sm font-semibold'> Total Withdraw </span>    
                     <span className='absolute top-0 left-0 w-[3px] h-full bg-active'> </span>
                 </div>
-
-
             </div>
-
-           
-
         </div>
     )
 }

@@ -25,14 +25,8 @@ let hours = parseInt(totalHours % 24)
 return `${days} : ${hours} : ${minutes} : ${seconds}`
 
 }
-
-
-
   return (
-     
-    
       <p> {getFormattedTime(timeRemaining)} </p>
-    
   );
 };
 

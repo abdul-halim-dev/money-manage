@@ -32,9 +32,7 @@ const Usertask = () => {
           </Link>
           <span>Withdraw </span>
         </div>
-
       </div>
-
       <div className='w-full flex items-center justify-between gap-4'>
 
         <div className='w-[50%] bg-secondary shadow-lg rounded-xl p-3 flex items-start justify-center flex-col gap-1 '>
@@ -45,9 +43,7 @@ const Usertask = () => {
           <span className='text-lg  font-medium '> Complete </span>
           <h3 className=' text-xl font-bold '> 0 Task </h3>
         </div>
-
       </div>
-
       <div className='w-full flex items-start justify-start p-3 gap-3 bg-secondary  rounded-xl shadow-xl'>
         <div className='w-[50px] h-[50px] '>
           <img className='w-full h-full object-cover' src="https://i.ibb.co.com/tcqbVPf/pending.png" alt="" />
@@ -60,8 +56,6 @@ const Usertask = () => {
           </div>
         </div>
       </div>
-
-
     </div>
   )
 }

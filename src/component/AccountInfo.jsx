@@ -8,22 +8,17 @@ import { FaChevronRight } from 'react-icons/fa6'
 const AccountInfo = () => {
   return (
     <div className='w-full   bg-primary    '>
-
       <Header />
-
       <div className='w-full py-2 relative'>
         <Link title='ড্যাশবোর্ড ' className=' absolute top-[6px] sm:top-[15px] left-[10px] sm:left-[30px] bg-[#808085] shadow-md py-2 px-2 rounded-md text-lg text-secondary' to={"/dashbord"}> <FaChevronRight /> </Link>
       </div>
-      
+
       <div className='w-full  flex items-center justify-center gap-6 flex-col pb-[100px]'>
         <div className="flex items-center justify-center flex-col gap-2 pt-6" >
           <h2 className="text-4xl font-bold " > Transfer Balance</h2>
           <p className='text-lg font-bold'>Transfer Balance to friends..</p>
         </div>
-
-
         <div className=' w-[95%] sm:w-[90%] flex items-center justify-center rounded-xl flex-col gap-4 bg-secondary  p-4'>
-
           <div className=' w-[170px] h-[170px] '>
             <img className='w-full h-full object-contain' src="https://i.ibb.co.com/MfTBS0g/dummy-profile.png" alt="" />
           </div>
@@ -70,34 +65,21 @@ const AccountInfo = () => {
             </div>
 
           </div>
-
           <div className='w-full flex items-center justify-center flex-col gap-3'>
-
             <div className=" w-full flex items-start justify-center flex-col gap-0   " >
               <label className='text-sm font-bold ' htmlFor="zipcode"> Zip Code </label>
               <input className=' text-lg  focus:border-b-2 focus:border-blue-500 focus:outline-none w-full bg-transparent border-b-2 border-active pb-1' type="text" name="zipcode" id="zipcode" />
             </div>
-
             <div className=" w-full flex items-start justify-center flex-col gap-0   " >
               <label className='text-sm font-bold ' htmlFor="city"> City </label>
               <input className=' text-lg  focus:border-b-2 focus:border-blue-500 focus:outline-none w-full bg-transparent border-b-2 border-active pb-1' type="text" name="city" id="city" />
             </div>
-
             <div className=" w-full flex items-start justify-center flex-col gap-0   " >
               <label className='text-sm font-bold ' htmlFor="country"> Country </label>
               <input className=' text-lg  focus:border-b-2 focus:border-blue-500 focus:outline-none w-full bg-transparent border-b-2 border-active pb-1' type="text" name="country" id="country" />
             </div>
-
             <button className=' w-full bg-active text-secondary text-lg py-1 font-semibold  rounded-xl '> Transfer </button>
-
-
           </div>
-
-
-
-
-
-
         </div>
       </div>
 

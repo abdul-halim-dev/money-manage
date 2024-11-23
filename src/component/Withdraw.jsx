@@ -6,16 +6,12 @@ const Withdraw = () => {
     return (
         <div className='w-full flex items-center justify-center flex-col gap-5 '>
             <Header />
-
             <div className='w-full flex items-start justify-center  '>
-
                 <div className=' w-full flex items-center justify-center flex-col gap-1 '>
-
                     <div className='w-full flex items-center justify-center gap-2 flex-col'>
                         <h3 className='text-4xl font-bold '> Withdraw </h3>
                         <p className='text-lg font-semibold'> Choose Gateway to Withdraw..</p>
                     </div>
-
                     <div className=' w-full px-6 sm:w-[50%] '>
                         <div className=' w-full  bg-primary p-3 shadow-md rounded-lg flex items-center justify-center flex-col gap-3'>
 
@@ -27,7 +23,6 @@ const Withdraw = () => {
                                     <option value="bkash"> BKash </option>
                                 </select>
                             </div>
-
                             <div className='w-full flex items-start justify-center flex-col gap-1' >
                                 <label className='text-sm font-bold' htmlFor="amount"> Amount </label>
                                 <div className='w-full flex items-center justify-center gap-1'>
@@ -36,23 +31,12 @@ const Withdraw = () => {
                                     <span className='pb-1 text-lg font-semibold border-b-2 border-active '> BDT </span>
                                 </div>
                             </div>
-
                             <button className='w-full bg-active py-[5px] rounded-xl shadow-lg text-secondary font-semibold text-lg'> Submit </button>
-
-
                         </div>
                     </div>
-
-
                 </div>
-
-
             </div>
-
-
             <Footer />
-
-
         </div>
     )
 }
